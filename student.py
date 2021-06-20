@@ -133,7 +133,7 @@ up_frame.grid_propagate(0)
 up_frame.pack(side=TOP, expand=True, fill=BOTH)
 
 
-welcomeText = Label(up_frame,text="Agent Details by Sathish",font=('Verdana', 16, 'roman italic'))
+welcomeText = Label(up_frame,text="Student Details by Sathish",font=('Verdana', 16, 'roman italic'))
 welcomeText.place(relx=.5, rely=.5, anchor='center')
 
 down_frame = Frame(window, cursor='hand1', height=400,width=800)
