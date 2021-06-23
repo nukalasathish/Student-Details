@@ -22,25 +22,7 @@ connection.execute(" CREATE TABLE IF NOT EXISTS " + TABLE_NAME + " ( " + STUDENT
                    " INTEGER PRIMARY KEY, " +
                    STUDENT_NAME + " TEXT, " + STUDENT_SUB1 + " INTEGER, " +
                    STUDENT_SUB2 + " INTEGER, " + STUDENT_SUB3 + " INTEGER, " + STUDENT_SUB4 + " INTEGER);")
-                   
-
-class Student:
-    studentID = 0
-    studenName = ""
-    sub_1 = 0
-    sub_2 = 0
-    sub_3 = 0
-    sub_4 = 0
-    
-    
-    def __init__(self, studentID, studentName, sub_1, sub_2, sub_3, sub_4):
-        self.studentID = studentID
-        self.studentName = studentName
-        self.sub_1 = sub_1
-        self.sub_2 = sub_2
-        self.sub_3 = sub_3
-        self.sub_4 = sub_4
-    
+                    
 def take_input():
     global student_ID_entry, student_name_entry, student_sub1_entry, student_sub2_entry, student_sub3_entry, student_sub4_entry
     # global studentname, sub1, sub2, sub3, sub4
