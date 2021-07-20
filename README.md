@@ -1,5 +1,5 @@
 
-# Student-Details
+# Student Database Management
 Student details Application using Python Tkinter and Sqlite3
 The purpose of this project is to implement an applicaton for saving student records, view the records and delete a specific student record.
 
